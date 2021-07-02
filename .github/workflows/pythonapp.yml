@@ -25,4 +25,4 @@ jobs:
         cd ./python
         docker login --username=msg2306 --password=${{ secrets.DOCKERPW }}
         docker image build -t msg2306/gitops:hellov1.0 .
-        docker push msg2306/gitops:hellov1.0
+        docker push msg2306/gitops:hellov1.11
